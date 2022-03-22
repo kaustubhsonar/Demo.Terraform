@@ -37,9 +37,39 @@
             key2 = valeu2
         }
     ```
-    
+
+- Resource Block
+    <p>Each resource block describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records.
+    </p>
+
+    ```
+    resource "azurerm_resource_group" "example" {
+        name     = "example"
+        location = "West Europe"
+    }
+    ```
 - Providers   
+  - Terraform relies on plugins called "providers" to interact with cloud providers, SaaS providers, and other APIs.
+  - Every resource type is implemented by a provider; without providers, Terraform can't manage any kind of infrastructure.
+  - Each provider has its own documentation, describing its resource types and their arguments.
+  - providers are checked and installed when we fire `terrafom init` comamnd.
+  
+  ```
+  # Azure Provider source and version being used
+    terraform {
+        required_providers {
+            azurerm = {
+            source  = "hashicorp/azurerm"
+            version = "=2.97.0"
+            }
+        }
+    }
+  ```
 - Variables 
+  <p> Like every other language variables are used in HCL as well for requesting and publishing named values.</p>
+  
+  - Input variable
+  - Output variable 
 - Output variables 
 - Resources 
 ---
