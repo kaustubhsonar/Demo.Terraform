@@ -27,6 +27,20 @@
 
 ---
 ## Terraform basics 
+- HCL (Hashicorp configuration language)
+    * Terraform uses HCL to provision resource. It has syntax of blocks and key value pair like follows
+
+    <details><summary>code template</summary>
+    <p>
+    ```
+       <block> <parameters>{
+            key1 = value1 
+            key2 = valeu2
+        }
+    ```
+    </p>
+</details>
+
 - Providers   
 - Variables 
 - Output variables 
