@@ -16,8 +16,8 @@
 ![IaC tools](https://github.com/kaustubhsonar/Demo.Terraform/blob/2dca1f1f2749bcc5cbd32bc5e1f65ef5410d835c/images/Screenshot%202022-03-22%20at%2012.32.20%20PM.png)
 ---
 ## Terraform introduction
-* Terraform is an `open-source` infrastructure as code software tool that provides a `consistent CLI workflow` to manage hundreds of cloud services. Terraform `codifies cloud APIs` into `declarative configuration files`.
-* Terraform in a open source tool originally developed by hashicorp that enables you to `automate and manage your infrastructure`.
+* Terraform is an <b>`open-source` </b>infrastructure as code software tool that provides a <b>`consistent CLI workflow`</b> to manage hundreds of cloud services. Terraform <b>`codifies cloud APIs`</b> into <b>`declarative configuration files`.</b>
+* Terraform in a open source tool originally developed by hashicorp that enables you to <b>`automate and manage your infrastructure`</b>.
 
 ---
 
