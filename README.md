@@ -24,20 +24,21 @@
 ## Infra chalenge Day 1 and day 2+
 * Nothing to something 
 * Incremental deployment
+
 ---
 ## Terraform basics 
-- Providers 
+- Providers   
 - Variables 
 - Output variables 
 - Resources 
 ---
 ## Terraform state 
-
----
-## Terraform provisioners 
+-local vs version control vs remote state
 
 ---
 ## Terraform modules 
+---
+## Terraform provisioners 
 
 ---
 
