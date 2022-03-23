@@ -57,6 +57,8 @@
   ```
   # Azure Provider source and version being used
     terraform {
+        required_version = ">=1.0.0"
+
         required_providers {
             azurerm = {
             source  = "hashicorp/azurerm"
