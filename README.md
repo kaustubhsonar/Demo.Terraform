@@ -69,12 +69,49 @@
   <p> Like every other language variables are used in HCL as well for requesting and publishing named values.</p>
   
   - Input variable
-  - Output variable 
-- Output variables 
-- Resources 
+    <p>Input variables are like function arguments.</p>
+    
+    ```
+    variable "image_id" {
+        type = string
+    }
+
+    variable "availability_zone_names" {
+        type    = list(string)
+        default = ["us-west-1a"]
+    }
+
+    variable "docker_ports" {
+        type = list(object({
+            internal = number
+            external = number
+            protocol = string
+        }))
+        default = [
+        {
+            internal = 8300
+            external = 8300
+            protocol = "tcp"
+        }
+      ]
+    }
+
+    ```
+  - Output variable
+    - output variables are like function return values.
+    - A root module can use outputs to print certain values in the CLI output after running terraform apply.
+
+    ```
+    output "instance_ip_addr" {
+      value = aws_instance.server.private_ip
+    }
+    ``` 
+
 ---
 ## Terraform state 
--local vs version control vs remote state
+ - Terraform must store state about your managed infrastructure and configuration
+ - This state is stored by default in a local file named `"terraform.tfstate"`, but it can also be stored remotely
+ - local vs remote state.
 
 ---
 ## Terraform modules 
