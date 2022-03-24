@@ -128,7 +128,7 @@
  - Published modules 
     <p> The modules which are published on public or private registry are called as published modules </p>
  - Modules
-    ![Modules](https://github.com/kaustubhsonar/Demo.Terraform/blob/2dca1f1f2749bcc5cbd32bc5e1f65ef5410d835c/images/modules.png)
+    ![Modules](https://github.com/kaustubhsonar/Demo.Terraform/blob/b37254aff7a96be9c9c55e6cccf08c03d0dc8a22/images/modules.PNG)
  
 ---
 
