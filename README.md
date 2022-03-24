@@ -17,7 +17,7 @@
 
 ## Terraform introduction
 * Terraform is an <b>`open-source` </b>infrastructure as code software tool that provides a <b>`consistent CLI workflow`</b> to manage hundreds of cloud services. Terraform <b>`codifies cloud APIs`</b> into <b>`declarative configuration files`.</b>
-* Terraform in a open source tool originally developed by hashicorp that enables you to <b>`automate and manage your infrastructure`</b>.
+* Terraform is an open source tool originally developed by hashicorp that enables you to <b>`automate and manage your infrastructure`</b>.
 
 
 
@@ -130,7 +130,11 @@
  
     ![Modules](https://github.com/kaustubhsonar/Demo.Terraform/blob/b37254aff7a96be9c9c55e6cccf08c03d0dc8a22/images/modules.PNG)
  
----
+## Commands 
+ - terraform init 
+ - terraform plan
+ - terraform apply 
+ - terraform destroy
 
 
 
