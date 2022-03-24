@@ -21,7 +21,7 @@
 
 
 
-## Infra chalenge Day 1 and day 2+
+## Infra challenge Day 1 and day 2+
 * Nothing to something 
 * Incremental deployment
 
