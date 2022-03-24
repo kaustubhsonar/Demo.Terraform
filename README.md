@@ -14,18 +14,18 @@
 
 #### Types of IaC tools 
 ![IaC tools](https://github.com/kaustubhsonar/Demo.Terraform/blob/2dca1f1f2749bcc5cbd32bc5e1f65ef5410d835c/images/Screenshot%202022-03-22%20at%2012.32.20%20PM.png)
----
+
 ## Terraform introduction
 * Terraform is an <b>`open-source` </b>infrastructure as code software tool that provides a <b>`consistent CLI workflow`</b> to manage hundreds of cloud services. Terraform <b>`codifies cloud APIs`</b> into <b>`declarative configuration files`.</b>
 * Terraform in a open source tool originally developed by hashicorp that enables you to <b>`automate and manage your infrastructure`</b>.
 
----
+
 
 ## Infra chalenge Day 1 and day 2+
 * Nothing to something 
 * Incremental deployment
 
----
+
 ## Terraform basics 
 - HCL (Hashicorp configuration language)
     <p>Terraform uses HCL to provision resource. It has syntax of blocks and key value pair like follows
@@ -109,19 +109,28 @@
     }
     ``` 
 
----
+
 ## Terraform state 
  - Terraform must store state about your managed infrastructure and configuration
  - This state is stored by default in a local file named `"terraform.tfstate"`, but it can also be stored remotely
  - local vs remote state.
 
----
+
 ## Terraform modules 
----
-## Terraform provisioners 
+ - Modules are containers for multiple resources that are used together. 
+ - It is a way to package and resue the configuration 
+ - Types of modules 
+    - The root module
+      <p>Every terraform configuration has a root module</p> 
+    - Child module
+      <p> A module that has been called by another module is often referred to as a child module. </p>
 
+ - Published modules 
+    <p> The modules which are published on public or private registry are called as published modules </p>
+ - Modules
+    ![Modules](https://github.com/kaustubhsonar/Demo.Terraform/blob/2dca1f1f2749bcc5cbd32bc5e1f65ef5410d835c/images/modules.png)
+ 
 ---
-
 
 
 

@@ -1,5 +1,4 @@
-/code/.terraform/
-/code/terraform.tfstate
-/code/terraform.tfstate.backup
-/code/.terraform.lock.hcl
-/code/.*
+.*
+!/.gitignore
+terraform.tfstate*
+!/.gitignore
