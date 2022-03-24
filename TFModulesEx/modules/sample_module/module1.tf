@@ -17,7 +17,3 @@ resource "azurerm_storage_container" "example" {
   storage_account_name  = azurerm_storage_account.example.name
   container_access_type = "private"
 }
-
-output "resource_group_name" {
-  value = azurerm_resource_group.example.name
-}
