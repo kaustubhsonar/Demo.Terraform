@@ -116,9 +116,9 @@
  - local vs remote state.
 
 
-## Terraform modules 
- - Modules are containers for multiple resources that are used together. 
- - It is a way to package and resue the configuration 
+## Terraform modules
+ - Modules are the way to `resue the code`.
+ - Modules are containers for multiple resources that are used together.  
  - Types of modules 
     - The root module
       <p>Every terraform configuration has a root module</p> 
