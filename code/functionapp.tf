@@ -20,3 +20,7 @@
 #   storage_account_name       = azurerm_storage_account.example.name
 #   storage_account_access_key = azurerm_storage_account.example.primary_access_key
 # }
+
+# output "azure_function_app_id" {
+#   value = azurerm_function_app.azurerm_function_app.id
+# }
