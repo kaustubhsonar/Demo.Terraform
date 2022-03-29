@@ -163,5 +163,14 @@
  - terraform destroy
  - terraform refresh
 
+## Demo 
+
+### Problem Statements 
+* Create following resources in the azure cloud 
+  1. Resource group 
+  2. Storage account in a resource group created in the first step
+  3. Private container under the storage account  
+* Create all the resources in the first problem for 2 environments `dev` and `live`. create following additional resource in `dev` environment.
+  1. Storage account named `specialstoragedev`.
 
 

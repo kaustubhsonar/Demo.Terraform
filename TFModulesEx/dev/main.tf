@@ -7,14 +7,14 @@ module "dev" {
   env = "dev" 
 }
 
-# resource "azurerm_storage_account" "example" {
-#   name                     = "demostoracc1180temp"
-#   resource_group_name      = "tfdemo-dev"
-#   location                 = "West Europe"
-#   account_tier             = "Standard"
-#   account_replication_type = "LRS"
+resource "azurerm_storage_account" "example" {
+  name                     = "specialstoragedev"
+  resource_group_name      = "tfdemo-dev"
+  location                 = "West Europe"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
 
-#   depends_on = [
-#     module.dev
-#   ]
-# }
+  depends_on = [
+    module.dev
+  ]
+}
