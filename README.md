@@ -1,7 +1,7 @@
 # Terraform
 
 ## Agenda 
-* Introduction to Iac 
+* Introduction to IaC 
 * What is Terraform 
 * Infra challenges 
 * Terraform features 
