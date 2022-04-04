@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 module "live" {
-  source = "../modules/sample_module"
+  source = "../modules/module1"
   env = "live"
 }

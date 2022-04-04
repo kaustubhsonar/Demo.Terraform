@@ -3,7 +3,17 @@ provider "azurerm" {
 }
 
 module "dev" {
-  source = "../modules/sample_module"
+  source = "../modules/module1"
   env = "dev" 
+}
+
+module "secondStorage" {
+  source = "../modules/module2"
+  storageAccountName = "specialstoragedev"
+  env = "dev"
+  
+  depends_on = [
+    module.dev
+  ]
 }
 
