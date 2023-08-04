@@ -173,5 +173,3 @@
   3. Private container under the storage account  
 * Create all the resources in the first problem for both the environments `dev` and `live`. Create following additional resource in the `dev` environment.
   1. Storage account named `specialstoragedev`.
-
-
